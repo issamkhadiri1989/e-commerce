@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - Our Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Our Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="profile.html">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="profile.png" class="rounded-circle mb-3" alt="User Avatar" width="150" height="150">
+                        <h5 class="card-title">John Doe</h5>
+                        <p class="text-muted">john.doe@email.com</p>
+                        <hr>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#profile" class="text-decoration-none">Profile Information</a></li>
+                            <li class="mb-2"><a href="#orders" class="text-decoration-none">My Orders</a></li>
+                            <li class="mb-2"><a href="#" class="text-decoration-none">Settings</a></li>
+                            <li class="mb-2"><a href="login.html" class="text-decoration-none text-danger">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-9">
+                <!-- Profile Information -->
+                <div class="card mb-4" id="profile">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">Profile Information</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="fw-bold">Full Name:</label>
+                                <p>John Doe</p>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="fw-bold">Email:</label>
+                                <p>john.doe@email.com</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="fw-bold">Phone:</label>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="fw-bold">Member Since:</label>
+                                <p>January 15, 2024</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <label class="fw-bold">Shipping Address:</label>
+                                <p>123 Main Street, Apt 4B<br>New York, NY 10001<br>United States</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-primary">Edit Profile</button>
+                    </div>
+                </div>
+
+                <!-- Order History -->
+                <div class="card" id="orders">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">Order History</h5>
+                    </div>
+                    <div class="card-body">
+                        <!-- Order 1 -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h6 class="card-title">Order #ORD-2024-001</h6>
+                                        <p class="text-muted mb-2">Placed on: February 10, 2024</p>
+                                        <p class="mb-1"><strong>Items:</strong> Wireless Headphones, Bluetooth Speaker</p>
+                                        <p class="mb-0"><strong>Total:</strong> $139.98</p>
+                                    </div>
+                                    <div class="col-md-4 text-md-end">
+                                        <span class="badge bg-success mb-2">Delivered</span>
+                                        <br>
+                                        <a href="#" class="btn btn-sm btn-outline-primary mt-2">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Order 2 -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h6 class="card-title">Order #ORD-2024-002</h6>
+                                        <p class="text-muted mb-2">Placed on: February 5, 2024</p>
+                                        <p class="mb-1"><strong>Items:</strong> Classic Leather Jacket</p>
+                                        <p class="mb-0"><strong>Total:</strong> $149.99</p>
+                                    </div>
+                                    <div class="col-md-4 text-md-end">
+                                        <span class="badge bg-info mb-2">In Transit</span>
+                                        <br>
+                                        <a href="#" class="btn btn-sm btn-outline-primary mt-2">Track Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Order 3 -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h6 class="card-title">Order #ORD-2024-003</h6>
+                                        <p class="text-muted mb-2">Placed on: January 28, 2024</p>
+                                        <p class="mb-1"><strong>Items:</strong> Yoga Mat, Smart Plant Sensor</p>
+                                        <p class="mb-0"><strong>Total:</strong> $64.98</p>
+                                    </div>
+                                    <div class="col-md-4 text-md-end">
+                                        <span class="badge bg-warning mb-2">Processing</span>
+                                        <br>
+                                        <a href="#" class="btn btn-sm btn-outline-primary mt-2">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Order 4 -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h6 class="card-title">Order #ORD-2024-004</h6>
+                                        <p class="text-muted mb-2">Placed on: January 20, 2024</p>
+                                        <p class="mb-1"><strong>Items:</strong> Web Development Guide</p>
+                                        <p class="mb-0"><strong>Total:</strong> $24.99</p>
+                                    </div>
+                                    <div class="col-md-4 text-md-end">
+                                        <span class="badge bg-danger mb-2">Cancelled</span>
+                                        <br>
+                                        <a href="#" class="btn btn-sm btn-outline-secondary mt-2">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Order 5 -->
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h6 class="card-title">Order #ORD-2024-005</h6>
+                                        <p class="text-muted mb-2">Placed on: January 15, 2024</p>
+                                        <p class="mb-1"><strong>Items:</strong> Mechanical Keyboard, Wireless Mouse</p>
+                                        <p class="mb-0"><strong>Total:</strong> $119.98</p>
+                                    </div>
+                                    <div class="col-md-4 text-md-end">
+                                        <span class="badge bg-success mb-2">Delivered</span>
+                                        <br>
+                                        <a href="#" class="btn btn-sm btn-outline-primary mt-2">Buy Again</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pagination -->
+                        <nav aria-label="Order pagination">
+                            <ul class="pagination justify-content-center mb-0">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Our Store</h5>
+                    <p>Quality products at affordable prices</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>&copy; 2024 Our Store. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Our Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">Our Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-primary bg-gradient text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-3 fw-bold mb-4">Welcome to Our Store</h1>
+                    <p class="lead mb-4">Discover amazing products across all categories. Quality items at unbeatable prices.</p>
+                    <a href="index.html" class="btn btn-light btn-lg me-2">Shop Now</a>
+                    <a href="#categories" class="btn btn-outline-light btn-lg">Browse Categories</a>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="https://via.placeholder.com/500x400" class="img-fluid rounded" alt="Shopping">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories Section -->
+    <div class="container my-5" id="categories">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold">Shop by Category</h2>
+            <p class="text-muted">Explore our wide range of products organized by category</p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Category 1: Electronics -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <span class="badge bg-primary mb-2">12 Products</span>
+                        <h4 class="card-title">Electronics</h4>
+                        <p class="card-text text-muted">Headphones, speakers, gadgets and more</p>
+                        <a href="categories.html?category=electronics" class="btn btn-outline-primary">Browse Electronics</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 2: Fashion -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <span class="badge bg-warning mb-2">18 Products</span>
+                        <h4 class="card-title">Fashion</h4>
+                        <p class="card-text text-muted">Clothing, accessories and footwear</p>
+                        <a href="categories.html?category=fashion" class="btn btn-outline-warning">Browse Fashion</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 3: Home & Garden -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <span class="badge bg-success mb-2">15 Products</span>
+                        <h4 class="card-title">Home & Garden</h4>
+                        <p class="card-text text-muted">Furniture, decor and gardening tools</p>
+                        <a href="categories.html?category=home-garden" class="btn btn-outline-success">Browse Home & Garden</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 4: Sports & Fitness -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <span class="badge bg-info mb-2">10 Products</span>
+                        <h4 class="card-title">Sports & Fitness</h4>
+                        <p class="card-text text-muted">Workout gear, yoga mats and equipment</p>
+                        <a href="categories.html?category=sports" class="btn btn-outline-info">Browse Sports</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 5: Books -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <span class="badge bg-danger mb-2">8 Products</span>
+                        <h4 class="card-title">Books</h4>
+                        <p class="card-text text-muted">Fiction, non-fiction and educational</p>
+                        <a href="categories.html?category=books" class="btn btn-outline-danger">Browse Books</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 6: Beauty & Health -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <span class="badge bg-secondary mb-2">14 Products</span>
+                        <h4 class="card-title">Beauty & Health</h4>
+                        <p class="card-text text-muted">Skincare, cosmetics and wellness</p>
+                        <a href="categories.html?category=beauty" class="btn btn-outline-secondary">Browse Beauty</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 7: Toys & Games -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <span class="badge bg-primary mb-2">20 Products</span>
+                        <h4 class="card-title">Toys & Games</h4>
+                        <p class="card-text text-muted">Fun for kids and family entertainment</p>
+                        <a href="categories.html?category=toys" class="btn btn-outline-primary">Browse Toys</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 8: Automotive -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <span class="badge bg-dark mb-2">9 Products</span>
+                        <h4 class="card-title">Automotive</h4>
+                        <p class="card-text text-muted">Car accessories and maintenance tools</p>
+                        <a href="categories.html?category=automotive" class="btn btn-outline-dark">Browse Automotive</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 9: Pet Supplies -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <span class="badge bg-warning mb-2">11 Products</span>
+                        <h4 class="card-title">Pet Supplies</h4>
+                        <p class="card-text text-muted">Food, toys and accessories for pets</p>
+                        <a href="categories.html?category=pets" class="btn btn-outline-warning">Browse Pet Supplies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="bg-light py-5 mt-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-truck text-primary" viewBox="0 0 16 16">
+                                    <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                                </svg>
+                            </div>
+                            <h5>Free Shipping</h5>
+                            <p class="text-muted">On orders over $50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-shield-check text-success" viewBox="0 0 16 16">
+                                    <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/>
+                                    <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                                </svg>
+                            </div>
+                            <h5>Secure Payment</h5>
+                            <p class="text-muted">100% secure transactions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrow-clockwise text-warning" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
+                                    <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
+                                </svg>
+                            </div>
+                            <h5>Easy Returns</h5>
+                            <p class="text-muted">30-day return policy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Our Store</h5>
+                    <p>Quality products at affordable prices</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>&copy; 2024 Our Store. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
